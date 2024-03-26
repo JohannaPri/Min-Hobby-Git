@@ -1,4 +1,5 @@
 import './style.css'
+import './modal.css';
 import { textContent, convertToParagraphs } from './textContent';
 const paragraphHTML = convertToParagraphs(textContent);
 import imagesData from './imageData.json';
