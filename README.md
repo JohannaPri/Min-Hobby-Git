@@ -71,7 +71,7 @@ It's a journey of self-discovery, adventure, and connection that shapes who I am
 
 1. Clone the repository from GitHub:
 
-`git clone https://github.com/JohannaPri/My-Hobby-Git/  tree/main`
+`git clone https://github.com/JohannaPri/My-Hobby-Git`
 
 2. Install dependencies:
 
