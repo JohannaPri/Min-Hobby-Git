@@ -1,5 +1,5 @@
 import './style.css'
-
+import { textContent } from './textContent';
 
 
 document.querySelector('#app').innerHTML = `
