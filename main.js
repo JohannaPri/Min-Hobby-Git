@@ -1,7 +1,44 @@
 import './style.css'
 import { textContent, convertToParagraphs } from './textContent';
 const paragraphHTML = convertToParagraphs(textContent);
+import imagesData from './imageData.json';
+import { generateModal } from './modal';
 
+document.addEventListener('DOMContentLoaded', function(event) {
+  const sidebar = document.getElementById('sidebar');
+
+  function createImageElement(id, src, alt, width) {
+    const img = document.createElement('img');
+    img.id = id;
+    img.src = src;
+    img.alt = alt;
+    img.width = width;
+
+    img.addEventListener('click', function() {
+      console.log('ID: ', id);
+
+      const modalContainer = document.getElementById('modalContainer')
+      const modalImg = document.getElementById(id);
+      modalContainer.innerHTML = generateModal(id, src);
+
+      const closeButton = document.getElementById('close-btn');
+      closeButton.addEventListener('click', function() {
+        modalContainer.style.display = 'none';
+      });
+
+      modalContainer.style.display = 'block';
+      console.log('Src: ', src);
+    });
+
+    return img;
+  }
+
+  imagesData.forEach(imageData => {
+    const { id, src, alt, width } = imageData;
+    const imgElement = createImageElement(id, src, alt, width);
+    sidebar.appendChild(imgElement);
+  })
+});
 
 document.querySelector('#app').innerHTML = `
  
@@ -31,5 +68,3 @@ document.querySelector('#app').innerHTML = `
 
 </main>
 `;
-
-
