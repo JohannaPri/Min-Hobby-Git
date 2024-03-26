@@ -1,5 +1,6 @@
 import './style.css'
-import { textContent } from './textContent';
+import { textContent, convertToParagraphs } from './textContent';
+const paragraphHTML = convertToParagraphs(textContent);
 
 
 document.querySelector('#app').innerHTML = `
@@ -16,6 +17,10 @@ document.querySelector('#app').innerHTML = `
 
       <article class="introduction">Travel may not be classified as a hobby in many people's eyes, but I would say that for me, traveling is like playing football for someone else; 
       it's my greatest interest in life, I often refer to it as a lifestyle.</article>
+
+      <div class="text-content">
+        ${paragraphHTML}
+      </div>
 
     </section>
   </div>

@@ -46,3 +46,9 @@ I am and how I see the world. And as long as there are new horizons
 to explore and experiences to be had, I'll continue to wander with an open heart 
 and a spirit of curiosity.
 `;
+
+export function convertToParagraphs(text) {
+    const articles = text.split('\n\n');
+    const articleTags = articles.map(article => `<article>${article.trim()}</article>`);
+    return articleTags.join('\n&nbsp;\n');
+}
