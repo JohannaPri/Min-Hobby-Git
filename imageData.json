@@ -1,43 +1,43 @@
 [
     {
         "id": "1",
-        "src": "/images/Travel-inspo.jpg",
+        "src": "./images/Travel-inspo.jpg",
         "alt": "A picture with travel inspiration",
         "width": "220"
     },
     {
         "id": "2",
-        "src": "/images/Map.jpg",
+        "src": "./images/Map.jpg",
         "alt": "A picture of a map",
         "width": "220"
     },
     {
         "id": "3",
-        "src": "/images/inspo.png",
+        "src": "./images/inspo.png",
         "alt": "A picture of a quote",
         "width": "220"
     },
     {
         "id": "4",
-        "src": "/images/sweet.png",
+        "src": "./images/sweet.png",
         "alt": "A picture that shows clothes, a coconut, and a camera",
         "width": "220"
     },
     {
         "id": "5",
-        "src": "/images/qoute.png",
+        "src": "./images/qoute.png",
         "alt": "A picture of a quote",
         "width": "220"
     },
     {
         "id": "6",
-        "src": "/images/airplane.png",
+        "src": "./images/airplane.png",
         "alt": "A picture of the wing of an airplane",
         "width": "220"
     },
     {
         "id": "7",
-        "src": "/images/globe.png",
+        "src": "./images/globe.png",
         "alt": "A picture of a globe with an airplane",
         "width": "220"
     }

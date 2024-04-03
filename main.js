@@ -47,7 +47,7 @@ document.querySelector('#app').innerHTML = `
 
   <header>
     <h1>Travel The World Is Not a Hobby It's a Lifestyle</h1>
-    <img src="/images/bridge.jpg" alt="A bridge with a beautiful view" height="355" width="889">
+    <img src="./images/bridge.jpg" alt="A bridge with a beautiful view" height="355" width="889">
   </header>
 
   <div id="content" class="content">
