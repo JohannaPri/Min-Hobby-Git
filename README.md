@@ -83,7 +83,7 @@ It's a journey of self-discovery, adventure, and connection that shapes who I am
 
 ---
 
-### Contributors
+### Contributor
 
 Johanna Prinz 
 - GitHub: [@JohannaPri](https://github.com/JohannaPri)
