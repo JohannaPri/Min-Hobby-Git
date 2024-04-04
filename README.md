@@ -110,6 +110,3 @@ Johanna Prinz
 
 ---
 
-
-
-<img width=500px src="./screenshots/car-transparent.png">
