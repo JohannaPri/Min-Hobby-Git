@@ -93,10 +93,10 @@ Johanna Prinz
 ## Screenshots:
 
 ##### The Whole Page
-<img width=500px src="screenshots/whole-page.jpg">
+<img width=500px src="./screenshots/whole-page.jpg">
 
 ##### Whole Page With image zoomed in (Modal)
-<img width=500px src="screenshots/whole-page-modal.jpg">
+<img width=500px src="./screenshots/whole-page-modal.jpg">
 
 ---
 
@@ -110,3 +110,6 @@ Johanna Prinz
 
 ---
 
+
+
+<img width=500px src="./screenshots/car-transparent.png">
